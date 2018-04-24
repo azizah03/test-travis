@@ -6,5 +6,4 @@ env:
     - 'FTP_PASS=alfatih04'
 
 script:
-
-- "curl -T halo.php -u $FTP_USER:$FTP_PASSWORD ftp://files.000webhost.com/public_html/"
+- "curl -T halo.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
